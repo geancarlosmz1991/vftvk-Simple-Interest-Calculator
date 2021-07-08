@@ -7,7 +7,7 @@ function compute()
 
     //calculamos el interes
     var interest = principal * years * rate /100;
-    var year = new Date.getFullYear()+partseInt(years);
+    var year = new Date().getFullYear()+partseInt(years);
     
     //mostrar resultado en pantalla
     document.getElementById("result").innerHTML = "If you deposit \<mark\>" + principal + 
