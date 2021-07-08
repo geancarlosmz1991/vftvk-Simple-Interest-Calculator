@@ -29,7 +29,7 @@ function validar(){
     var principal = document.getElementById("principal").value;
 
     //si el valor de principal es menos o igual a cero mostar mensaje
-    if(principal = "" || parseFloat(principal) <= 0){
+    if(principal == "" || parseFloat(principal) <= 0){
         alert("Enter a positive number");
         document.getElementById("principal").focus();
     }
