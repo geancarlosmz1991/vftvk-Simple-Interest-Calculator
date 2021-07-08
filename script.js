@@ -7,7 +7,7 @@ function compute()
 
     //calculamos el interes
     var interest = principal * years * rate /100;
-    var amount = interest + principal;
+    var amount = parseFloat(interest) + parseFloat(principal);
     var year = new Date().getFullYear()+parseInt(years);
     
     //mostrar resultado en pantalla
