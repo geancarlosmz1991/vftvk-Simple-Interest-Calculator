@@ -10,3 +10,7 @@ h1{color:grey;font-family:verdana}
     align: center
 }
 
+.text{
+  display: inline-block;
+  width: 150px;
+}
